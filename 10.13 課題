@@ -1,0 +1,27 @@
+＃include　<stdio.h>
+
+int main()
+{
+    int k;
+    printf("How many pockets?");
+    scanf("%d", &k);
+
+    printf("The number of pockets is %d", k);
+
+
+    int p;
+     printf("How many bisucuits?");
+    scant("%d", &p);
+    
+    printf("The number of bisucuits is %d", p);
+    
+    int sum;
+    sum=k+p;
+     printf("The number of pockets and bisucuits: %d\n",sum);
+
+
+
+
+
+
+    return 0;
