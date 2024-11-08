@@ -1,18 +1,25 @@
+#include <stdio.h>
 int main()
 {
-    int k;
+    int f;
     printf("How many friends?");
-    scanf("%d",&k);
-    if (k>=100)
+    scanf("%d",&f);
+    int g;
+    printf("How many girls?");
+    scanf("%d",&g);
+    if (f>g)
     {
         printf("There are many friends!");
     }
+    else if (f<g)
+    {
+        printf("There are many girls!");
+    }
     else
     {
-        printf("There are few friends!");
+        printf("100 percent girls!");
     }
-    
-    
+
     return 0;
     
 }
